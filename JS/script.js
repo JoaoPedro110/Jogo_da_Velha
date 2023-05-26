@@ -181,5 +181,69 @@ function verificaganhador() {
         finaljogo = true;
         alert('O Jogador X ganhou')
     }
+    if(btn4=='X' && btn5=='X' && btn6=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn7=='X' && btn8=='X' && btn9=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn1=='X' && btn4=='X' && btn7=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn2=='X' && btn5=='X' && btn8=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn3=='X' && btn6=='X' && btn9=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn1=='X' && btn5=='X' && btn9=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+    if(btn3=='X' && btn5=='X' && btn7=='X') {
+        finaljogo = true;
+        alert('O Jogador X ganhou')
+    }
+
+}
+
+// Verifica se jogador X ganhou     
+if(btn1=='X' && btn2=='X' && btn3=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn4=='X' && btn5=='X' && btn6=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn7=='X' && btn8=='X' && btn9=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn1=='X' && btn4=='X' && btn7=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn2=='X' && btn5=='X' && btn8=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn3=='X' && btn6=='X' && btn9=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn1=='X' && btn5=='X' && btn9=='X') {
+    finaljogo = true;
+    alert('O Jogador X ganhou')
+}
+if(btn3=='O' && btn5=='O' && btn7=='O') {
+    finaljogo = true;
+    alert('O Jogador O ganhou')
+}
 
 }
