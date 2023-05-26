@@ -1,23 +1,26 @@
 body {
-    background-color:aquamarine;
+    background-color:rgba(0, 251, 255, 0.705);
     font-family: 'Dancing Script', cursive;
 }
+
 h1 {
     font-size: 30px;
     color:rgba(255, 0, 0, 0.753);
-    text-shadow: 1px 1px 2px #9583f2, 0 0 25px rgb(83, 1, 248);
+    text-shadow: 6px 3px 5px #2b00ff , 0 0 25px rgb(255, 0, 0);
     margin-bottom: 80px;
 }
+
 h2 {
     margin-top: 40px;
     font-size: 30px;
-    color:rgba(255, 0, 0, 0.753);
-    text-shadow: 1px 1px 2px #9583f2, 0 0 25px rgb(83, 1, 248);
+    color:rgb(255, 0, 0);
+    text-shadow: 6px 3px 5px #2b00ff , 0 0 25px rgb(255, 0, 0);
 }
 
 main {
     text-align: center;
 }
+
 .tabuleiro div input{
     width: 100px;
     margin:5px;
@@ -27,8 +30,9 @@ main {
     font-size: 30px;
     cursor:pointer;
 }
+
  input[type=button]{
-    background-color: rgb(255, 0, 0);
+    background-color:#0a0a23;;
     color: white;
     font-family: cursive;
 }
