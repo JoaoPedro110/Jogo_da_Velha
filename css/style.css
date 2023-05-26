@@ -9,6 +9,7 @@ h1 {
     margin-bottom: 80px;
 }
 h2 {
+    margin-top: 40px;
     font-size: 30px;
     color:rgba(255, 0, 0, 0.753);
     text-shadow: 1px 1px 2px #9583f2, 0 0 25px rgb(83, 1, 248);
