@@ -335,6 +335,8 @@ function verificaganhador()
 
 //Click do Botão Reiniciar 
 function clickReiniciar() {
+
+    //Reiniciar Variaveis
     btn1 = 0;
     btn2 = 0;
     btn3 = 0;
@@ -348,6 +350,7 @@ function clickReiniciar() {
     jogadas = 0;
     finaljogo = false;
     
+    //Reiniciar Botão
     let b1 = document.getElementById('btn1');
     let b2 = document.getElementById('btn2');
     let b3 = document.getElementById('btn3');
@@ -368,7 +371,11 @@ function clickReiniciar() {
     b8.value =' '
     b9.value =' '
 
+    //Reiniciar Label 
+    let lbljogador = document.getElementById("lbljogador")
+    let lbljogadas = document.getElementById("lbljogadas")
+
     lbljogador.innerText = 'Jogador X'
-    lbljogadas.innerText = '(' +(jogadas+1) +'ª Jogada)';
+    lbljogadas.innerText = '(1ª Jogada)';
 
 }
