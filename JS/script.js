@@ -332,3 +332,30 @@ function verificaganhador()
 
     lbljogadas.innerText = '(' +(jogadas+1) +'ª Jogada)';
 }
+
+//Click do Botão Reiniciar 
+function clickReiniciar() {
+    btn1 = 0;
+    btn2 = 0;
+    btn3 = 0;
+    btn4 = 0;
+    btn5 = 0;
+    btn6 = 0;
+    btn7 = 0;
+    btn8 = 0;
+    btn9 = 0;
+    controle = 0;
+    jogadas = 0;
+    finaljogo = false;
+    
+    let b1 = document.getElementById('btn1');
+    let b2 = document.getElementById('btn2');
+    let b3 = document.getElementById('btn3');
+    let b4 = document.getElementById('btn4');
+    let b5 = document.getElementById('btn5');
+    let b6 = document.getElementById('btn6');
+    let b7 = document.getElementById('btn7');
+    let b8 = document.getElementById('btn8');
+    let b9 = document.getElementById('btn9');
+    
+}
