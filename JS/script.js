@@ -19,6 +19,7 @@ let finalJogo = false;
 // Jogadores
 let jogador1 = null;
 let jogador2 = null;
+let jogadorSelecionado = null;
 
 // Personagens
 let vazio = "url('img/vazio.png')";
@@ -375,7 +376,7 @@ function verificaGanhador() {
 
 
 function clickPoke(pokemonSelecionado, botao) {
-    let jogadorSelecionado = null;
+    
     let btn = document.getElementById(botao);
 
     if (pokemonSelecionado == 'charmander') {
@@ -414,9 +415,6 @@ function clickPoke(pokemonSelecionado, botao) {
         sectionTabuleiro.style.display = 'block';
     }
 
-    btn.style.backgroundColor = 'red';
-    btn.style.color = 'white';
-
 }
 
 // Click do botão Reiniciar
@@ -434,6 +432,7 @@ function clickReiniciar() {
     controle = 0;
     jogadas = 0;
     finalJogo = false;
+    
 
     // Reiniciar Botões
     let b1 = document.getElementById('btn1');
@@ -456,15 +455,22 @@ function clickReiniciar() {
     b8.value = ' ';
     b9.value = ' ';
 
+    b1.style.backgroundImage = vazio
+    b2.style.backgroundImage = vazio
+    b3.style.backgroundImage = vazio
+    b4.style.backgroundImage = vazio
+    b5.style.backgroundImage = vazio
+    b6.style.backgroundImage = vazio
+    b7.style.backgroundImage = vazio
+    b8.style.backgroundImage = vazio
+    b9.style.backgroundImage = vazio
+
     // Reiniciar Label
     let lblJogador = document.getElementById('lblJogador');
     let lblJogadas = document.getElementById('lblJogadas');
 
     lblJogador.innerText = 'Jogador 1';
     lblJogadas.innerText = '(1ª Jogada)';
-
-    //Reniciar Jogador
-        jogador1 = null;
 
     //Reniciar Tabuleiro 
         sectionPersonagens.style.display = 'block'
@@ -474,7 +480,13 @@ function clickReiniciar() {
         let lblOrdemPersonagem = document.getElementById('ordemPersonagem');
         lblOrdemPersonagem.innerText = '1º'
 
-
+     //Reniciar Jogador
+     jogador1 = null;
+     jogador2 = null;
+     jogadorSelecionado = null
+     jogador1.style.backgroundImage = vazio;
+     jogador2.style.backgroundImage = vazio;
+        
+        
 }
-
 
